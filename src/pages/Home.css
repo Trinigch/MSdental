@@ -1,0 +1,82 @@
+.home {
+  font-family: Arial, sans-serif;
+}
+
+/* TITULOS */
+
+.home h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* SECCIONES */
+
+.services,
+.about,
+.benefits,
+.contact {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* SERVICIOS */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.service-card {
+  background: #f8f8f8;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+}
+
+/* ABOUT */
+
+.about {
+  text-align: center;
+  max-width: 700px;
+}
+
+/* BENEFICIOS */
+
+.benefits-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.benefits-grid div {
+  max-width: 250px;
+}
+
+/* CONTACTO */
+
+.contact {
+  text-align: center;
+}
+
+.contact button {
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #6BB7AE;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #5aa39a;
+}
